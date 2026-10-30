@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "routingdrift"
 version = "0.2.0"
-description = "Where the Time Goes in Mixture-of-Experts Inference:Launch Overhead, Substitutable Experts, and the Limits of Kernels, Quantization, and Compilation"
+description = "The Launch Wall: Why Kernels, Quantization, and Compilation Stall on MoE Inference"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
