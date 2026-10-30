@@ -45,8 +45,6 @@ gptq = ["auto-gptq", "optimum"]
 dev = ["ruff>=0.6", "pytest>=8.0"]
 all = ["routingdrift[eval,viz,kernels,dev]"]
 
-[project.urls]
-Repository = "https://github.com/GokuHashira/moe-ceilings"
 
 [project.scripts]
 routingdrift-experiment = "routingdrift.quantization.run_experiment:main"
