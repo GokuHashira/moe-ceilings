@@ -1,6 +1,6 @@
-# Launch-Bound and Substitutable: Why Three MoE Inference Optimizations Don't Pay
-
-**University of Maryland** · MSML 605 project, extended for publication
+# Where the Time Goes in Mixture-of-Experts Inference:
+Launch Overhead, Substitutable Experts, and the Limits of Kernels,
+Quantization, and Compilation
 
 What quantization, custom Triton kernels, and `torch.compile` actually do to Mixture-of-Experts
 inference. Measured on OLMoE-1B-7B, DeepSeek-V2-Lite, and Qwen3-30B-A3B. None of the three
