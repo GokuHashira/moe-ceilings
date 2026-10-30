@@ -1,4 +1,5 @@
-# Where the Time Goes in Mixture-of-Experts Inference: Launch Overhead, Substitutable Experts, and the Limits of Kernels, Quantization, and Compilation
+# The Launch Wall: Why Kernels, Quantization, and Compilation Stall on MoE Inference
+
 
 What quantization, custom Triton kernels, and `torch.compile` actually do to Mixture-of-Experts
 inference. Measured on OLMoE-1B-7B, DeepSeek-V2-Lite, and Qwen3-30B-A3B. None of the three
